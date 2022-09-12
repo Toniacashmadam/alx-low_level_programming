@@ -1,5 +1,4 @@
  #include <stdio.h>
-
 /**
  * main - entry point
  * Description: print a string followed by new line
