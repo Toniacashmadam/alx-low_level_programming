@@ -25,6 +25,9 @@ if (col > 0)
 _putchar(' ');
 (tens <= 0) ? _putchar(' ') : _putchar(tens + '0');
 }
+_putchar(units + '0');								if (col < 9)
+_putchar(44);									col++;
+}
 col = 0;
 row++;
 _putchar(10);
