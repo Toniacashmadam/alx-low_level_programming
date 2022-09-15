@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
-* print_to_98 - function
-* @n: parameter
-* Return: natural numbers
-*/
+ * print_to_98 - function
+ * @n: parameter
+ * Return: natural numbers
+ */
 void print_to_98(int n)
 {
 int upper = 98;
+
 if (n > upper)
 {
 while (n >= upper)
@@ -20,7 +21,7 @@ else
 {
 printf("%d", n);
 }
-n++;
+n--;
 }
 }
 else
