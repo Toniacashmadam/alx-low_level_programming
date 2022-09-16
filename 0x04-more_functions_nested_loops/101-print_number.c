@@ -1,8 +1,11 @@
 #include "main.h"
+
 /**
  * print_number - Print integer
  * @n: number
+ *
  */
+
 void print_number(int n)
 {
 unsigned int n2, number, base10 = 1;
@@ -12,8 +15,8 @@ if (n < 0)
 _putchar('-');
 n2 = -n;
 }
-else
 {
+else
 n2 = n;
 }
 number = n2;
