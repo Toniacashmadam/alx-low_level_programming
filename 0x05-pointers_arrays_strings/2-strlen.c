@@ -1,16 +1,16 @@
 #include "main.h"
-
 /**
- * swap_int - function
- *
- * @a: pointer of parameter
- * @b: pointer of parameter
+ * _strlen - function
+ * @s: pointer of parameter
+ * Return: return n's value
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-int temp;
-
-temp = (*a);
-(*a) = (*b);
-(*b) = temp;
+	int n = 0;
+	
+	while (s[n] != '\0')
+{
+n++;
+}
+return (n);
 }
