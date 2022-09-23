@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcat - concatenates two strings
  * @dest: string to append to
@@ -14,6 +13,7 @@ int y = 0;
 while (dest[x])
 {
 x++;
+}
 while (src[y])
 {
 dest[x] = src[y];
